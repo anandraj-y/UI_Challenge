@@ -19,4 +19,9 @@ const addTodoHandler = () => {
   clearInput();
 };
 
+$inputValue.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    addTodoHandler();
+  }
+});
 $todoAddButton.addEventListener("click", addTodoHandler);
