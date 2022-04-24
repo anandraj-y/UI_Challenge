@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="action.php">
+      <div class="container">
+        <button id="cross">&times</button>
+        <div class="imgContainer">
+          <img
+            src="https://www.w3schools.com/howto/img_avatar2.png"
+            alt="profile pic"
+          />
+        </div>
+        <div class="inputSection">
+          <label for="username">Username</label>
+          <input
+            id="username"
+            type="text"
+            name="uname"
+            placeholder="Enter Username"
+          />
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            name="passwd"
+            placeholder="Enter Password"
+          />
+          <button type="submit">Login</button>
+          <input id="rememberme" type="checkbox" checked="checked" />
+          <label for="rememberme">Remember me</label>
+        </div>
+        <div class="forgotSection">
+          <button class="cancel">Cancel</button>
+          <span class="forgotPasswd">Forgot <a href="/">Password?</a></span>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

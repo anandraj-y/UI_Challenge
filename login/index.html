@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/verdana" rel="stylesheet" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <button id="login">Login</button>
+    <div class="modalContainer hide">
+      <button id="closeModal">X</button>
+      <div class="profileSection">
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" />
+      </div>
+      <div class="formSection">
+        <form>
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter Username" />
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Password" />
+          <input type="submit" value="Login" id="loginButton" />
+          <div class="checkboxContainer">
+            <input type="checkbox" checked="true" class="checkbox" />
+            <span>Remember me</span>
+          </div>
+        </form>
+      </div>
+      <div class="forgotSection">
+        <button id="cancel">Cancel</button>
+        <button id="forgotPassword">Forgot <u>password?</u></button>
+      </div>
+    </div>
+  </body>
+</html>

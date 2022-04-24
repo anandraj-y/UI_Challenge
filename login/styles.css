@@ -1,0 +1,114 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overLay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+}
+
+.modalContainer.hide {
+    display: none;
+}
+
+.modalContainer {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 20px;
+    z-index: 4;
+    background-color: #fff;
+}
+
+#login {
+    align-self: flex-end;
+}
+
+#closeModal {
+    width: fit-content;
+    align-self: flex-end;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+}
+
+#closeModal:hover {
+    background-color: #dcdcdc;
+    border: 1px solid;
+}
+
+.profileSection {
+    align-self: center;
+}
+
+.profileSection img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+#username {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#password {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* .checkbox {
+    font-size: 14px;
+} */
+
+.checkboxContainer span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+#loginButton {
+    width: 100%;
+    color: #fff!important;
+    background-color: #4CAF50!important;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#cancel {
+    color: #fff;
+    background-color: #f44336;
+    padding: 10px 15px;
+    border: none;
+}
+
+.forgotSection {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#forgotPassword {
+    background-color: transparent;
+    border: none;
+}
